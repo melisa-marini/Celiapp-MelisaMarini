@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--CSS-->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!--Google FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Favicon-->
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/celiaco.png"
+      type="image/x-icon"
+    />
+    <!--Titulo de mi proyecto-->
+    <title>Celiapp</title>
+  </head>
+  <body>
+    <!--BODY-->
+    <div class="menuPrincipal">
+      <header class="logo">
+        <!--HEADER-->
+        <div class="logoIndex">
+          <a href="../index.html">
+            <img
+              src="../assets/img/Logo-navegador.png"
+              alt="Celiapp, logo en el navegador"
+          /></a>
+        </div>
+      </header>
+      <nav class="menu">
+        <!--NAV-->
+        <ul class="navList">
+          <li class="navItem">
+            <a class="navLink" href="./recetas.html">Recetas</a>
+          </li>
+          <li class="navItem">
+            <a class="navLink" href="./baresyresto.html">Bares y Resto</a>
+          </li>
+          <li class="navItem">
+            <a class="navLink" href="./mercados.html">Mercados</a>
+          </li>
+          <li class="navItem">
+            <a class="navLink" href="./comunidad.html">Comunidad</a>
+          </li>
+          <li class="navItem">
+            <a class="navLink" href="./micuenta.html">Mi Cuenta</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <!--MAIN-->
+      <div class="seccion">
+        <img
+          class="imgSeccion"
+          src="../assets/img/mercados.jpg"
+          alt="Imagen inicial de la sección 'Mercados', carrito de supermercado"
+        />
+        <h2 class="tituloSeccion">Mercados</h2>
+      </div>
+      <div class="buscador">
+        <input
+          class="inputBuscador"
+          type="search"
+          name="buscador"
+          placeholder="Buscador de mercados"
+        />
+        <input class="btnBuscador" type="button" value="Buscar" />
+      </div>
+      <div class="mapaMercados">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.90179174198!2d-64.18579078508843!3d-31.416831781404024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329902eb0b2faf%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses!2sar!4v1653784618275!5m2!1ses!2sar"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="filaCard">
+        <div class="card">
+          <img
+            class="imgCard"
+            src="../assets/img/mercado1.jpg"
+            alt="foto del mercado 'Mercadito Lola'"
+          />
+          <h3 class="tituloCard">Mercadito Lola</h3>
+          <p class="textoCard">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum,
+            commodi aliquam expedita laudantium illo voluptatem ipsum quos
+            aspernatur quaerat unde qui ut quasi iure maiores placeat odio
+            veniam. Quisquam, veniam!
+          </p>
+          <input class="btnCard" type="button" value="Ver más" />
+        </div>
+      </div>
+    </main>
+    <footer class="pieDePagina">
+      <!--FOOTER-->
+      <h5>©2022 Melisa Ailen Marini - Todos los derechos reservados</h5>
+    </footer>
+  </body>
+</html>
