@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--CSS-->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--Animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--Google FONT-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,6 +21,8 @@
     />
     <!--Titulo de mi proyecto-->
     <title>Celiapp</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!--BODY-->
@@ -60,11 +62,13 @@
       <!--MAIN-->
       <!--Contenido principal de la página -->
       <div class="contenedor">
-        <img
-          class="imgIndex"
-          src="./assets/img/Celiapp-logo.png"
-          alt="Celiapp, es el nombre y logo de mi página y aplicacion"
-        />
+        <div data-aos="zoom-in">
+          <img
+            class="imgIndex"
+            src="./assets/img/Celiapp-logo.png"
+            alt="Celiapp, es el nombre y logo de mi página y aplicacion"
+          />
+        </div>
         <svg
           class="imgSvg"
           xmlns="http://www.w3.org/2000/svg"
@@ -116,5 +120,10 @@
       <!--FOOTER-->
       <h5>©2022 Melisa Ailen Marini - Todos los derechos reservados</h5>
     </footer>
+    <!--Animaciones, JS e inicio de libreria-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
