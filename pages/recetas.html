@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--CSS-->
     <link rel="stylesheet" href="../assets/css/style.css" />
     <!--Google FONT-->
@@ -76,7 +78,12 @@
         <input class="btnBuscador" type="button" value="Buscar" />
       </div>
       <div class="filaCard">
-        <div class="card">
+        <div
+          class="card"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <img
             class="imgCard"
             src="../assets/img/receta1.jpg"
@@ -91,7 +98,12 @@
           </p>
           <input class="btnCard" type="button" value="Ver más" />
         </div>
-        <div class="card">
+        <div
+          class="card"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <img
             class="imgCard"
             src="../assets/img/receta2.jpg"
@@ -112,5 +124,10 @@
       <!--FOOTER-->
       <h5>©2022 Melisa Ailen Marini - Todos los derechos reservados</h5>
     </footer>
+    <!--Animaciones, JS e inicio de libreria-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
