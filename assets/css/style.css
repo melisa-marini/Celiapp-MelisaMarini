@@ -63,6 +63,9 @@ body {
   display: block;
   justify-content: center;
 }
+/*.imgIndex {
+  padding-left: 25%;
+}*/
 .imgSvg {
   /*CON DISPLAY: BLOCK PUDE BORRAR LA LINEA BLANCA*/
   display: block;
