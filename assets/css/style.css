@@ -63,8 +63,6 @@ body {
   display: block;
   justify-content: center;
 }
-.imgIndex {
-}
 .imgSvg {
   /*CON DISPLAY: BLOCK PUDE BORRAR LA LINEA BLANCA*/
   display: block;
@@ -76,10 +74,10 @@ body {
   font-family: "Roboto", sans-serif;
   padding-bottom: 20%;
 }
-.acercaDe {
+/*.acercaDe {
   font-size: 36px;
   padding-bottom: 10px;
-}
+}*/
 .parrafoIndex {
   font-size: 20px;
   padding: 0 50px 0 50px;
