@@ -1,52 +1,52 @@
 .btnIndex {
-  background-color: $colorSecundario;
-  border: none;
-  border-radius: 12px;
-  color: black;
-  padding: 1rem 2rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
-  margin: 4px 2px;
-  cursor: pointer;
+  background-color: map-get($boton, colorFondo);
+  border: map-get($boton, borde);
+  border-radius: map-get($boton, radio);
+  color: map-get($boton, colorLetra);
+  padding: map-get($boton, padding);
+  text-align: map-get($boton, text-align);
+  text-decoration: map-get($boton, text-decoration);
+  display: map-get($boton, display);
+  font-size: map-get($boton, font-size);
+  margin: map-get($boton, marginIndex);
+  cursor: map-get($boton, cursor);
 }
 .btnBuscador {
-  margin-left: 10px;
-  background-color: $colorSecundario;
-  border: none;
-  border-radius: 12px;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
-  cursor: pointer;
+  margin-left: map-get($boton, marginBuscador);
+  background-color: map-get($boton, colorFondo);
+  border: map-get($boton, borde);
+  border-radius: map-get($boton, radio);
+  color: map-get($boton, colorLetra);
+  padding: map-get($boton, padding);
+  text-align: map-get($boton, text-align);
+  text-decoration: map-get($boton, text-decoration);
+  display: map-get($boton, display);
+  font-size: map-get($boton, font-size);
+  cursor: map-get($boton, cursor);
 }
 .btnCard {
-  margin: 5px;
-  background-color: $colorSecundario;
-  border: none;
-  border-radius: 12px;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
-  cursor: pointer;
+  margin: map-get($boton, marginCard);
+  background-color: map-get($boton, colorFondo);
+  border: map-get($boton, borde);
+  border-radius: map-get($boton, radio);
+  color: map-get($boton, colorLetra);
+  padding: map-get($boton, padding);
+  text-align: map-get($boton, text-align);
+  text-decoration: map-get($boton, text-decoration);
+  display: map-get($boton, display);
+  font-size: map-get($boton, font-size);
+  cursor: map-get($boton, cursor);
 }
 .btnPublicar {
-  margin: 15px;
-  background-color: $colorSecundario;
-  border: none;
-  border-radius: 12px;
-  color: black;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
-  cursor: pointer;
+  margin: map-get($boton, marginPublicar);
+  background-color: map-get($boton, colorFondo);
+  border: map-get($boton, borde);
+  border-radius: map-get($boton, radio);
+  color: map-get($boton, colorLetra);
+  padding: map-get($boton, padding);
+  text-align: map-get($boton, text-align);
+  text-decoration: map-get($boton, text-decoration);
+  display: map-get($boton, display);
+  font-size: map-get($boton, font-size);
+  cursor: map-get($boton, cursor);
 }
