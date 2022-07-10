@@ -1,0 +1,52 @@
+.btnIndex {
+  background-color: $colorSecundario;
+  border: none;
+  border-radius: 12px;
+  color: black;
+  padding: 1rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btnBuscador {
+  margin-left: 10px;
+  background-color: $colorSecundario;
+  border: none;
+  border-radius: 12px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btnCard {
+  margin: 5px;
+  background-color: $colorSecundario;
+  border: none;
+  border-radius: 12px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btnPublicar {
+  margin: 15px;
+  background-color: $colorSecundario;
+  border: none;
+  border-radius: 12px;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  cursor: pointer;
+}

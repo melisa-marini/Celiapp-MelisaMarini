@@ -1,0 +1,12 @@
+/*BUSCADOR*/
+.buscador {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 70px 0 70px 0;
+  .inputBuscador {
+    padding-right: 5px;
+    border-radius: 12px;
+    padding: 0 180px 0 15px;
+  }
+}

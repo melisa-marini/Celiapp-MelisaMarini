@@ -1,0 +1,21 @@
+/*INDEX*/
+.contenedor {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  .imgSvg {
+    /*CON DISPLAY: BLOCK PUDE BORRAR LA LINEA BLANCA*/
+    display: block;
+  }
+  .textIndex {
+    margin-top: 0%;
+    background-color: $colorPrimario;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 120px;
+    .parrafoIndex {
+      font-size: 20px;
+      padding: 0 50px 0 50px;
+    }
+  }
+}
