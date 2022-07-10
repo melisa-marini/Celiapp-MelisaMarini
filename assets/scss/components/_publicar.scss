@@ -1,5 +1,5 @@
 .publicar {
-  background-color: $colorTerciario;
+  background-color: map-get($colores, terciario);
   margin: 10px;
   display: flex;
   flex-direction: row;

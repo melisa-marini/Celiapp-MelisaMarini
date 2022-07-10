@@ -1,6 +1,6 @@
 /*PIE DE PAGINA*/
 .pieDePagina {
-  background-color: $colorFooter;
+  background-color: map-get($colores, colorFooter);
   padding: 0.5rem 0;
   display: block;
   text-align: center;

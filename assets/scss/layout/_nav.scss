@@ -1,10 +1,10 @@
 /*BARRA DE MENU*/
 .menuPrincipal {
-  background-color: $colorBlanco;
+  background-color: map-get($colores, blanco);
   position: sticky;
   top: 0;
   z-index: 1;
-  box-shadow: 0 0 5px 0 $colorShadow;
+  box-shadow: 0 0 5px 0 map-get($colores, colorShadow);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -23,7 +23,7 @@
       .navItem {
         margin: 30px 0 0 15px;
         .navLink {
-          color: $colorNav;
+          color: map-get($colores, colorNav);
           text-decoration: none;
           text-transform: uppercase;
           font-size: large;

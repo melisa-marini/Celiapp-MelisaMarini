@@ -9,7 +9,7 @@
   }
   .textIndex {
     margin-top: 0%;
-    background-color: $colorPrimario;
+    background-color: map-get($colores, primario);
     text-align: center;
     font-family: "Roboto", sans-serif;
     padding-bottom: 120px;
