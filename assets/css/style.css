@@ -133,6 +133,7 @@ body {
 .buscador {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 70px 0 70px 0; }
   .buscador .inputBuscador {
@@ -177,6 +178,7 @@ iframe {
   margin: 10px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center; }
 
 /*MI CUENTA*/
