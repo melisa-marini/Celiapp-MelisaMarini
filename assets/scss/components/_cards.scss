@@ -1,0 +1,30 @@
+/*TARJETAS y FORO*/
+@import "../utilities/variables";
+.filaCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  .card {
+    margin: 100px;
+    max-width: 400px;
+    height: auto;
+    padding: 2rem;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px -10px map-get($colores, colorShadow);
+    .imgCard {
+      width: 230px;
+      height: 150px;
+      overflow: hidden;
+      align-self: center;
+    }
+    .tituloCard {
+      overflow: hidden;
+      margin: 5px;
+      align-self: center;
+    }
+    .textoCard {
+      overflow: hidden;
+    }
+  }
+}
