@@ -1,0 +1,28 @@
+/*FORO*/
+/*.foro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.publicacion {
+  margin: 50px;
+  max-width: auto;
+  height: auto;
+  padding: 2rem;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+}
+.usuarioPublicacion {
+  margin-bottom: 5px;
+  align-self: center;
+}
+.textoPublicacion {
+  padding: 0 5px 0px 5px;
+}
+.imgPublicacion {
+  width: auto;
+  height: 200px;
+  overflow: hidden;
+  padding-top: 10px;
+}*/

@@ -1,0 +1,27 @@
+$colores: (
+  primario: #fad8ce,
+  secundario: #d1e9a3,
+  terciario: #faceeb,
+  blanco: #fff,
+  negro: #0000,
+  colorShadow: rgba(107, 107, 107, 0.76),
+  colorNav: darkslategrey,
+  colorFooter: #f0f1f0,
+);
+
+$boton: (
+  colorFondo: map-get($colores, secundario),
+  borde: none,
+  radio: 12px,
+  colorLetra: black,
+  padding: 1rem 2rem,
+  text-align: center,
+  text-decoration: none,
+  display: inline-block,
+  font-size: 1rem,
+  marginIndex: 4px 2px,
+  cursor: pointer,
+  marginBuscador: 10px,
+  marginCard: 5px,
+  marginPublicar: 15px,
+);
