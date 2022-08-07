@@ -79,11 +79,95 @@
           class="inputBuscador"
           type="search"
           name="buscador"
-          placeholder="Ingresar mercado"
+          placeholder="¿Qué necesitas comprar?"
         />
         <input class="btnBuscador" type="button" value="Buscar" />
       </div>
-      <div class="mapaMercados">
+      <div class="row justify-content-center p-5">
+        <div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Rubros</option>
+            <option value="1">Almacen</option>
+            <option value="2">Carnicerias</option>
+            <option value="3">Heladeria</option>
+            <option value="4">Kiosco</option>
+            <option value="5">Panaderia</option>
+            <option value="6">Verdulerias</option>
+          </select>
+        </div>
+      </div>
+      <div class="row justify-content-around mb-5">
+        <div class="card col-5 mb-5 p-4" style="width: 25rem">
+          <img
+            class="card-img-top img-fluid"
+            src="../assets/img/mercado1.jpg"
+            alt="foto del mercado 'Mercadito Lola'"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Mercadito Lola</h3>
+            <p class="card-text">
+              Minimercado con opciones variadas de alimentos.
+              <br />
+              Belgrano 200, Córdoba, Argentina.
+            </p>
+          </div>
+          <div class="card-body">
+            <input
+              class="btn btn-info"
+              type="button"
+              value="Datos de contacto"
+            />
+            <input class="btn btn-info" type="button" value="Ver mapa" />
+          </div>
+        </div>
+        <div class="card col-5 mb-5 p-4" style="width: 25rem">
+          <img
+            class="card-img-top img-fluid"
+            src="../assets/img/mercadoMuppet.jpg"
+            alt="foto del mercado 'Muppet'"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Muppet</h3>
+            <p class="card-text">
+              Minimercado con opciones variadas de alimentos.
+              <br />
+              Alem 3200, Córdoba, Argentina.
+            </p>
+          </div>
+          <div class="card-body">
+            <input
+              class="btn btn-info"
+              type="button"
+              value="Datos de contacto"
+            />
+            <input class="btn btn-info" type="button" value="Ver mapa" />
+          </div>
+        </div>
+        <div class="card col-5 mb-5 p-4" style="width: 25rem">
+          <img
+            class="card-img-top img-fluid"
+            src="../assets/img/mercadoLoDeMartin.jpg"
+            alt="foto del mercado 'Lo de Martin'"
+          />
+          <div class="card-body">
+            <h3 class="card-title">Lo de Martin</h3>
+            <p class="card-text">
+              Almacen de barrio.
+              <br />
+              Caseros 5600, Córdoba, Argentina.
+            </p>
+          </div>
+          <div class="card-body">
+            <input
+              class="btn btn-info"
+              type="button"
+              value="Datos de contacto"
+            />
+            <input class="btn btn-info" type="button" value="Ver mapa" />
+          </div>
+        </div>
+      </div>
+      <div class="mapaMercados m-5">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.90179174198!2d-64.18579078508843!3d-31.416831781404024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329902eb0b2faf%3A0x4382bb478dc6e982!2sPlaza%20San%20Mart%C3%ADn!5e0!3m2!1ses!2sar!4v1653784618275!5m2!1ses!2sar"
           height="350"
@@ -92,23 +176,6 @@
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-      </div>
-      <div class="filaCard">
-        <div class="card">
-          <img
-            class="imgCard"
-            src="../assets/img/mercado1.jpg"
-            alt="foto del mercado 'Mercadito Lola'"
-          />
-          <h3 class="tituloCard">Mercadito Lola</h3>
-          <p class="textoCard">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum,
-            commodi aliquam expedita laudantium illo voluptatem ipsum quos
-            aspernatur quaerat unde qui ut quasi iure maiores placeat odio
-            veniam. Quisquam, veniam!
-          </p>
-          <input class="btnCard" type="button" value="Ver más" />
-        </div>
       </div>
     </main>
     <footer class="pieDePagina">
