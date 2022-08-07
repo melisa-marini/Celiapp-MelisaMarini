@@ -75,25 +75,36 @@
           />
         </div>
       </div>
-      <div class="contenedorForm">
-        <form class="form" action="">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
           <input
-            class="ingresarUsuario"
             type="email"
-            name="usuario"
-            placeholder="Ingrese su usuario"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
           />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
           <input
-            class="ingresarContrasena"
             type="password"
-            name="contrasena"
-            placeholder="Ingrese su contraseña"
+            class="form-control"
+            id="exampleInputPassword1"
           />
-          <input class="btnIngresar" type="submit" value="Ingresar" />
-          <a class="enlaceMiCuenta" href="">¿Ha olvidado su contraseña?</a>
-          <a class="enlaceMiCuenta" href="">¿No tiene una cuenta?</a>
-        </form>
-      </div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Recordar claves</label
+          >
+        </div>
+        <a class="enlaceMiCuenta" href="">¿Ha olvidado su contraseña?</a>
+        <a class="enlaceMiCuenta" href="">¿No tiene una cuenta?</a>
+        <button type="submit" class="btn btn-primary">Ingresar</button>
+      </form>
     </main>
     <footer class="pieDePagina">
       <!--FOOTER-->
